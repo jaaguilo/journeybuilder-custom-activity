@@ -25,8 +25,16 @@ exports.ui = (req, res) => {
     title: 'Custom Activity',
     dropdownOptions: [
       {
-        name: 'Credit Assigned',
-        value: 'Credit Value',
+        name: 'Select a credit option',
+        value: '',
+      },
+      {
+        name: 'Add Credit',
+        value: 'Add',
+      },
+      {
+        name: 'Remove Credit',
+        value: 'Remove',
       },
     ],
   });
